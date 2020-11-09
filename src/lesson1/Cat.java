@@ -35,10 +35,7 @@ public class Cat implements Participant {
         System.out.println("Cat: " + name + " jump "  + height+ "м.");
     }
 
-    @Override
-    public void info() {
 
-    }
 
     @Override
     public boolean isAttempt() {

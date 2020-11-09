@@ -32,10 +32,7 @@ public class Robot implements Participant {
         System.out.println("Robot: " + name + " jump "+ height + "м.");
     }
 
-    @Override
-    public void info() {
 
-    }
 
     @Override
     public boolean isAttempt() {

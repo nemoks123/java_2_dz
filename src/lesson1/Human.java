@@ -34,10 +34,7 @@ public class Human implements Participant {
         System.out.println("Human: " + name + " jump "+ height+ "м." );
     }
 
-    @Override
-    public void info() {
 
-    }
 
     @Override
     public boolean isAttempt() {
