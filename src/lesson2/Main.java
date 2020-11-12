@@ -10,7 +10,7 @@ public class Main {
             {"5","1","3","2"},
             {"5","4","3","2"}
         };
-        Massiv(a);
+            System.out.println("Сумма всех элементов массива = " + Massiv(a));
         }catch (MyArraySizeException | MyArrayDataException e){
             System.out.println(e.getMessage());
         }
